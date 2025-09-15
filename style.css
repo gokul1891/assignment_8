@@ -1,0 +1,23 @@
+body {
+  background: #f8f9fa;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: gray;
+}
